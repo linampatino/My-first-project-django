@@ -25,7 +25,7 @@ SECRET_KEY = '1ki=$$x3wx6m-%7%r7!mk=0km6lpet40m2#s^2kq$5@5s!b+8m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'linampatino.phythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'linampatino.pythonanywhere.com']
 
 
 # Application definition
