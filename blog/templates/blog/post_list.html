@@ -7,8 +7,10 @@
 					<p> Published: {{ post.published_date }} </p>
 				</div>  
 							
-				<h1><a href = "{% url 'blog.views.post_detail' pk=post.pk %}"> {{ post.title }}</h1>
+				<h1> {{ post.title }} </h1>
 				<p>{{ post.text | linebreaksbr }}</p>
 			</div>
 		{% endfor %}
 	{% endblock %}
+
+	<!-- <h1><a href="{% url 'blog.views.post_detail' pk=post.pk %}">{{ post.title }}</a></h1> -->
